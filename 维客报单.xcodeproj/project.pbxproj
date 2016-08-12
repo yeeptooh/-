@@ -25,6 +25,29 @@
 		4A59F0761D5C777600239750 /* BaoxiuWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A59F0751D5C777600239750 /* BaoxiuWebViewController.m */; };
 		4A59F0791D5C796F00239750 /* MyInfoWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A59F0781D5C796F00239750 /* MyInfoWebViewController.m */; };
 		4A59F07B1D5C7E2400239750 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A59F07A1D5C7E2400239750 /* Foundation+Log.m */; };
+		4A68DCB51D5D63C700B24EC4 /* ShareAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCB41D5D63C700B24EC4 /* ShareAnimation.m */; };
+		4A68DCB81D5D647800B24EC4 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCB71D5D647800B24EC4 /* ShareViewController.m */; };
+		4A68DCD61D5D65DC00B24EC4 /* CancelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCBA1D5D65DC00B24EC4 /* CancelTableViewCell.m */; };
+		4A68DCD71D5D65DC00B24EC4 /* CancelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A68DCBB1D5D65DC00B24EC4 /* CancelTableViewCell.xib */; };
+		4A68DCD81D5D65DC00B24EC4 /* DetailForthTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCBD1D5D65DC00B24EC4 /* DetailForthTableViewCell.m */; };
+		4A68DCD91D5D65DC00B24EC4 /* DetailForthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A68DCBE1D5D65DC00B24EC4 /* DetailForthTableViewCell.xib */; };
+		4A68DCDA1D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCC01D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.m */; };
+		4A68DCDB1D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A68DCC11D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.xib */; };
+		4A68DCDC1D5D65DC00B24EC4 /* DetailTaskPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCC31D5D65DC00B24EC4 /* DetailTaskPlanViewController.m */; };
+		4A68DCDD1D5D65DC00B24EC4 /* DetailThirdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCC51D5D65DC00B24EC4 /* DetailThirdTableViewCell.m */; };
+		4A68DCDE1D5D65DC00B24EC4 /* DetailThirdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A68DCC61D5D65DC00B24EC4 /* DetailThirdTableViewCell.xib */; };
+		4A68DCDF1D5D65DC00B24EC4 /* DialogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCC81D5D65DC00B24EC4 /* DialogTableViewCell.m */; };
+		4A68DCE01D5D65DC00B24EC4 /* DialogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A68DCC91D5D65DC00B24EC4 /* DialogTableViewCell.xib */; };
+		4A68DCE11D5D65DC00B24EC4 /* OtherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCCB1D5D65DC00B24EC4 /* OtherTableViewCell.m */; };
+		4A68DCE21D5D65DC00B24EC4 /* OtherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A68DCCC1D5D65DC00B24EC4 /* OtherTableViewCell.xib */; };
+		4A68DCE31D5D65DC00B24EC4 /* Section2DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCCE1D5D65DC00B24EC4 /* Section2DetailTableViewCell.m */; };
+		4A68DCE41D5D65DC00B24EC4 /* Section2DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A68DCCF1D5D65DC00B24EC4 /* Section2DetailTableViewCell.xib */; };
+		4A68DCE51D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCD11D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.m */; };
+		4A68DCE61D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A68DCD21D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.xib */; };
+		4A68DCE71D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCD41D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.m */; };
+		4A68DCE81D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A68DCD51D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.xib */; };
+		4A68DCEB1D5D65FC00B24EC4 /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCEA1D5D65FC00B24EC4 /* OrderModel.m */; };
+		4A68DCF21D5D665E00B24EC4 /* AllOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCED1D5D665D00B24EC4 /* AllOrderViewController.m */; };
 		B96A0B7545D3A7C96BC37C04 /* libPods-维客报单.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E941DB33648F76242A4663F /* libPods-维客报单.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +107,43 @@
 		4A59F0771D5C796F00239750 /* MyInfoWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoWebViewController.h; sourceTree = "<group>"; };
 		4A59F0781D5C796F00239750 /* MyInfoWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoWebViewController.m; sourceTree = "<group>"; };
 		4A59F07A1D5C7E2400239750 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		4A68DCB31D5D63C700B24EC4 /* ShareAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareAnimation.h; sourceTree = "<group>"; };
+		4A68DCB41D5D63C700B24EC4 /* ShareAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareAnimation.m; sourceTree = "<group>"; };
+		4A68DCB61D5D647800B24EC4 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		4A68DCB71D5D647800B24EC4 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		4A68DCB91D5D65DC00B24EC4 /* CancelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelTableViewCell.h; sourceTree = "<group>"; };
+		4A68DCBA1D5D65DC00B24EC4 /* CancelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelTableViewCell.m; sourceTree = "<group>"; };
+		4A68DCBB1D5D65DC00B24EC4 /* CancelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CancelTableViewCell.xib; sourceTree = "<group>"; };
+		4A68DCBC1D5D65DC00B24EC4 /* DetailForthTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailForthTableViewCell.h; sourceTree = "<group>"; };
+		4A68DCBD1D5D65DC00B24EC4 /* DetailForthTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailForthTableViewCell.m; sourceTree = "<group>"; };
+		4A68DCBE1D5D65DC00B24EC4 /* DetailForthTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailForthTableViewCell.xib; sourceTree = "<group>"; };
+		4A68DCBF1D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTaskPlanTableViewCell.h; sourceTree = "<group>"; };
+		4A68DCC01D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTaskPlanTableViewCell.m; sourceTree = "<group>"; };
+		4A68DCC11D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTaskPlanTableViewCell.xib; sourceTree = "<group>"; };
+		4A68DCC21D5D65DC00B24EC4 /* DetailTaskPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTaskPlanViewController.h; sourceTree = "<group>"; };
+		4A68DCC31D5D65DC00B24EC4 /* DetailTaskPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTaskPlanViewController.m; sourceTree = "<group>"; };
+		4A68DCC41D5D65DC00B24EC4 /* DetailThirdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailThirdTableViewCell.h; sourceTree = "<group>"; };
+		4A68DCC51D5D65DC00B24EC4 /* DetailThirdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailThirdTableViewCell.m; sourceTree = "<group>"; };
+		4A68DCC61D5D65DC00B24EC4 /* DetailThirdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailThirdTableViewCell.xib; sourceTree = "<group>"; };
+		4A68DCC71D5D65DC00B24EC4 /* DialogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogTableViewCell.h; sourceTree = "<group>"; };
+		4A68DCC81D5D65DC00B24EC4 /* DialogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogTableViewCell.m; sourceTree = "<group>"; };
+		4A68DCC91D5D65DC00B24EC4 /* DialogTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogTableViewCell.xib; sourceTree = "<group>"; };
+		4A68DCCA1D5D65DC00B24EC4 /* OtherTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherTableViewCell.h; sourceTree = "<group>"; };
+		4A68DCCB1D5D65DC00B24EC4 /* OtherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherTableViewCell.m; sourceTree = "<group>"; };
+		4A68DCCC1D5D65DC00B24EC4 /* OtherTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherTableViewCell.xib; sourceTree = "<group>"; };
+		4A68DCCD1D5D65DC00B24EC4 /* Section2DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section2DetailTableViewCell.h; sourceTree = "<group>"; };
+		4A68DCCE1D5D65DC00B24EC4 /* Section2DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section2DetailTableViewCell.m; sourceTree = "<group>"; };
+		4A68DCCF1D5D65DC00B24EC4 /* Section2DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Section2DetailTableViewCell.xib; sourceTree = "<group>"; };
+		4A68DCD01D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionDetailTaskPlanTableViewCell.h; sourceTree = "<group>"; };
+		4A68DCD11D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionDetailTaskPlanTableViewCell.m; sourceTree = "<group>"; };
+		4A68DCD21D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionDetailTaskPlanTableViewCell.xib; sourceTree = "<group>"; };
+		4A68DCD31D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskPlanToDoTableViewCell.h; sourceTree = "<group>"; };
+		4A68DCD41D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskPlanToDoTableViewCell.m; sourceTree = "<group>"; };
+		4A68DCD51D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskPlanToDoTableViewCell.xib; sourceTree = "<group>"; };
+		4A68DCE91D5D65FC00B24EC4 /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
+		4A68DCEA1D5D65FC00B24EC4 /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
+		4A68DCEC1D5D665D00B24EC4 /* AllOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllOrderViewController.h; sourceTree = "<group>"; };
+		4A68DCED1D5D665D00B24EC4 /* AllOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllOrderViewController.m; sourceTree = "<group>"; };
 		4E941DB33648F76242A4663F /* libPods-维客报单.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-维客报单.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBF6F178E8E3AD865AAB76B /* Pods-维客报单.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-维客报单.release.xcconfig"; path = "Pods/Target Support Files/Pods-维客报单/Pods-维客报单.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,6 +271,10 @@
 			children = (
 				4A59F0541D5C661600239750 /* UserModel.h */,
 				4A59F0551D5C661600239750 /* UserModel.m */,
+				4A68DCB31D5D63C700B24EC4 /* ShareAnimation.h */,
+				4A68DCB41D5D63C700B24EC4 /* ShareAnimation.m */,
+				4A68DCE91D5D65FC00B24EC4 /* OrderModel.h */,
+				4A68DCEA1D5D65FC00B24EC4 /* OrderModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -218,6 +282,35 @@
 		4A59F05E1D5C669500239750 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4A68DCB91D5D65DC00B24EC4 /* CancelTableViewCell.h */,
+				4A68DCBA1D5D65DC00B24EC4 /* CancelTableViewCell.m */,
+				4A68DCBB1D5D65DC00B24EC4 /* CancelTableViewCell.xib */,
+				4A68DCBC1D5D65DC00B24EC4 /* DetailForthTableViewCell.h */,
+				4A68DCBD1D5D65DC00B24EC4 /* DetailForthTableViewCell.m */,
+				4A68DCBE1D5D65DC00B24EC4 /* DetailForthTableViewCell.xib */,
+				4A68DCBF1D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.h */,
+				4A68DCC01D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.m */,
+				4A68DCC11D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.xib */,
+				4A68DCC21D5D65DC00B24EC4 /* DetailTaskPlanViewController.h */,
+				4A68DCC31D5D65DC00B24EC4 /* DetailTaskPlanViewController.m */,
+				4A68DCC41D5D65DC00B24EC4 /* DetailThirdTableViewCell.h */,
+				4A68DCC51D5D65DC00B24EC4 /* DetailThirdTableViewCell.m */,
+				4A68DCC61D5D65DC00B24EC4 /* DetailThirdTableViewCell.xib */,
+				4A68DCC71D5D65DC00B24EC4 /* DialogTableViewCell.h */,
+				4A68DCC81D5D65DC00B24EC4 /* DialogTableViewCell.m */,
+				4A68DCC91D5D65DC00B24EC4 /* DialogTableViewCell.xib */,
+				4A68DCCA1D5D65DC00B24EC4 /* OtherTableViewCell.h */,
+				4A68DCCB1D5D65DC00B24EC4 /* OtherTableViewCell.m */,
+				4A68DCCC1D5D65DC00B24EC4 /* OtherTableViewCell.xib */,
+				4A68DCCD1D5D65DC00B24EC4 /* Section2DetailTableViewCell.h */,
+				4A68DCCE1D5D65DC00B24EC4 /* Section2DetailTableViewCell.m */,
+				4A68DCCF1D5D65DC00B24EC4 /* Section2DetailTableViewCell.xib */,
+				4A68DCD01D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.h */,
+				4A68DCD11D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.m */,
+				4A68DCD21D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.xib */,
+				4A68DCD31D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.h */,
+				4A68DCD41D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.m */,
+				4A68DCD51D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -236,6 +329,10 @@
 				4A59F0751D5C777600239750 /* BaoxiuWebViewController.m */,
 				4A59F0771D5C796F00239750 /* MyInfoWebViewController.h */,
 				4A59F0781D5C796F00239750 /* MyInfoWebViewController.m */,
+				4A68DCB61D5D647800B24EC4 /* ShareViewController.h */,
+				4A68DCB71D5D647800B24EC4 /* ShareViewController.m */,
+				4A68DCEC1D5D665D00B24EC4 /* AllOrderViewController.h */,
+				4A68DCED1D5D665D00B24EC4 /* AllOrderViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -356,8 +453,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A59F0291D5C607E00239750 /* LaunchScreen.storyboard in Resources */,
+				4A68DCE81D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.xib in Resources */,
+				4A68DCD91D5D65DC00B24EC4 /* DetailForthTableViewCell.xib in Resources */,
+				4A68DCDB1D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.xib in Resources */,
+				4A68DCE01D5D65DC00B24EC4 /* DialogTableViewCell.xib in Resources */,
+				4A68DCD71D5D65DC00B24EC4 /* CancelTableViewCell.xib in Resources */,
 				4A59F0261D5C607E00239750 /* Assets.xcassets in Resources */,
+				4A68DCE21D5D65DC00B24EC4 /* OtherTableViewCell.xib in Resources */,
+				4A68DCDE1D5D65DC00B24EC4 /* DetailThirdTableViewCell.xib in Resources */,
+				4A68DCE61D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.xib in Resources */,
 				4A59F05B1D5C662B00239750 /* LoginViewController.xib in Resources */,
+				4A68DCE41D5D65DC00B24EC4 /* Section2DetailTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,16 +538,30 @@
 			files = (
 				4A59F04F1D5C639800239750 /* NicoNetworking.m in Sources */,
 				4A59F0721D5C76FA00239750 /* BaseViewController.m in Sources */,
+				4A68DCDA1D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.m in Sources */,
+				4A68DCF21D5D665E00B24EC4 /* AllOrderViewController.m in Sources */,
 				4A59F06A1D5C769F00239750 /* ZDDWebViewController.m in Sources */,
 				4A59F0761D5C777600239750 /* BaoxiuWebViewController.m in Sources */,
 				4A59F0561D5C661600239750 /* UserModel.m in Sources */,
+				4A68DCEB1D5D65FC00B24EC4 /* OrderModel.m in Sources */,
+				4A68DCDC1D5D65DC00B24EC4 /* DetailTaskPlanViewController.m in Sources */,
 				4A59F05A1D5C662B00239750 /* LoginViewController.m in Sources */,
+				4A68DCE51D5D65DC00B24EC4 /* SectionDetailTaskPlanTableViewCell.m in Sources */,
+				4A68DCB51D5D63C700B24EC4 /* ShareAnimation.m in Sources */,
 				4A59F0731D5C76FA00239750 /* DetailPageBaseViewController.m in Sources */,
+				4A68DCD81D5D65DC00B24EC4 /* DetailForthTableViewCell.m in Sources */,
+				4A68DCE71D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.m in Sources */,
+				4A68DCE31D5D65DC00B24EC4 /* Section2DetailTableViewCell.m in Sources */,
 				4A59F0791D5C796F00239750 /* MyInfoWebViewController.m in Sources */,
+				4A68DCD61D5D65DC00B24EC4 /* CancelTableViewCell.m in Sources */,
 				4A59F06D1D5C76BF00239750 /* StandardWebViewController.m in Sources */,
+				4A68DCDF1D5D65DC00B24EC4 /* DialogTableViewCell.m in Sources */,
+				4A68DCDD1D5D65DC00B24EC4 /* DetailThirdTableViewCell.m in Sources */,
+				4A68DCE11D5D65DC00B24EC4 /* OtherTableViewCell.m in Sources */,
 				4A59F01E1D5C607E00239750 /* AppDelegate.m in Sources */,
 				4A59F07B1D5C7E2400239750 /* Foundation+Log.m in Sources */,
 				4A59F01B1D5C607E00239750 /* main.m in Sources */,
+				4A68DCB81D5D647800B24EC4 /* ShareViewController.m in Sources */,
 				4A59F0671D5C6C3D00239750 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@ target '维客报单' do
 pod ‘pop’
 pod ‘AFNetworking’
 pod ‘MBProgressHUD’
+pod ‘MJRefresh’
 end
 
 target '维客报单Tests' do

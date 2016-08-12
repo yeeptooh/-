@@ -25,7 +25,7 @@
                                                            }];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"hadLogin"]) {
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"hadLaunch"]) {
         self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[HomeViewController alloc]init]];
     }else{
         self.window.rootViewController = [[LoginViewController alloc]init];

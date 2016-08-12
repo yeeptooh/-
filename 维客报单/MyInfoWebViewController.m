@@ -102,6 +102,7 @@ WKNavigationDelegate
 }
 
 - (void)quitButtonClicked {
+    [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"hadLaunch"];
     [[NSUserDefaults standardUserDefaults] setInteger:1 forKey:@"logOut"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     

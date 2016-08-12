@@ -142,8 +142,6 @@ UITextFieldDelegate
     
     [NicoNetworking nicoGetWithBaseURL:HomeUrl subURL:@"/Passport.ashx" parameters:params success:^(id responseObject) {
         
-        NSLog(@"%@",responseObject);
-        
         if ([[responseObject objectForKey:@"user"][0][@"State"]integerValue] == 1) {
             //  将用户数据存储到Usermodel
             UserModel *model = [[UserModel alloc]init];
@@ -155,7 +153,7 @@ UITextFieldDelegate
             
             [self saveWords];
             //保存登录状态
-            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"hadLogin"];
+            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"hadLaunch"];
             [[NSUserDefaults standardUserDefaults] synchronize];
             
             MBProgressHUD *hud      = [MBProgressHUD HUDForView:self.view];

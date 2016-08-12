@@ -10,8 +10,15 @@
 #import "StandardWebViewController.h"
 #import "BaoxiuWebViewController.h"
 #import "MyInfoWebViewController.h"
+#import "ShareAnimation.h"
+#import "ShareViewController.h"
+#import "AllOrderViewController.h"
+#import "UserModel.h"
+#import "NicoNetworking.h"
 @interface HomeViewController ()
-
+<
+UIViewControllerTransitioningDelegate
+>
 @end
 
 @implementation HomeViewController
@@ -27,6 +34,11 @@
     
     [self setTopBaseView];
     [self setBottomBaseView];
+
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [self networking];
 }
 
 
@@ -102,10 +114,45 @@
     [self.view addSubview:label3];
 }
 
+- (void)networking {
+    UserModel *userModel = [UserModel readUserModel];
+    
+    NSDictionary *parames = @{@"uid":@(userModel.ID),@"comid":@(userModel.CompanyID)};
+    
+    [NicoNetworking nicoGetWithBaseURL:HomeUrl subURL:@"Task.ashx?action=updateTaskCount" parameters:parames success:^(id responseObject) {
+        
+        [self updateUIWithResponse:responseObject];
+    } failure:^(NSError *error) {
+        
+    }];
+   
+}
+
+- (void)updateUIWithResponse:(NSDictionary *)response {
+    UILabel *redLabel = [[UILabel alloc] initWithFrame:CGRectMake(90.0/8 +((90.0/8) * 2 + ((Width - 90)/4)) + (Width - 90)/4 - 20*Width/320, 40, 20*Width/320, 20*Width/320)];
+    redLabel.backgroundColor = [UIColor redColor];
+    redLabel.layer.masksToBounds = YES;
+    redLabel.layer.cornerRadius = redLabel.frame.size.height/2;
+    redLabel.textAlignment = 1;
+    redLabel.textColor = [UIColor whiteColor];
+    redLabel.text = response[@"TaskCount"][0][@"TaskAll"];
+    if ([redLabel.text isEqualToString:@"0"]) {
+        redLabel.text = @"";
+        redLabel.backgroundColor = [UIColor clearColor];
+    }
+
+    redLabel.font = [UIFont systemFontOfSize:10*Width/320];
+    [self.view addSubview:redLabel];
+}
+
 - (void)buttonClicked:(UIButton *)sender {
     if (sender.tag == 1000) {
         
     }else if (sender.tag == 1001) {
+        
+        AllOrderViewController *allVC = [[AllOrderViewController alloc] init];
+        [self.navigationController pushViewController:allVC animated:YES];
+        
         
     }else if (sender.tag == 1002) {
         StandardWebViewController *standardVC = [[StandardWebViewController alloc] init];
@@ -120,12 +167,24 @@
         [self.navigationController pushViewController:baoxiuVC animated:YES];
         
     }else if (sender.tag == 1005) {
-        
+//        ShareViewController *sVC = [[ShareViewController alloc]init];
+//        sVC.transitioningDelegate = self;
+//        sVC.modalPresentationStyle = UIModalPresentationCustom;
+//        [self presentViewController:sVC animated:YES completion:nil];
     }
 }
 
 
 
+#pragma mark - UIViewControllerTransitioningDelegate -
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+    return [ShareAnimation shareAnimationWithType:ShareAnimationTypePresent duration:0.15 presentHeight:258];
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    return [ShareAnimation shareAnimationWithType:ShareAnimationTypeDismiss duration:0.05 presentHeight:258];
+}
 
 
 
