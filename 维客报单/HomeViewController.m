@@ -13,6 +13,7 @@
 #import "ShareAnimation.h"
 #import "ShareViewController.h"
 #import "AllOrderViewController.h"
+#import "AddViewController.h"
 #import "UserModel.h"
 #import "NicoNetworking.h"
 @interface HomeViewController ()
@@ -34,6 +35,8 @@ UIViewControllerTransitioningDelegate
     
     [self setTopBaseView];
     [self setBottomBaseView];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(networking) name:kUpdateRedLabel object:nil];
 
 }
 
@@ -89,7 +92,6 @@ UIViewControllerTransitioningDelegate
     UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(0, 100 + (Width - 90)/4, Width, 0.5)];
     label2.backgroundColor = color(150, 150, 150, 1);
     [self.view addSubview:label2];
-    
     
     NSArray *labelTextList = @[@"收费标准", @"我的信息", @"保修政策", @"分享好友"];
     for (NSInteger i = 0; i < 4; i ++) {
@@ -147,12 +149,13 @@ UIViewControllerTransitioningDelegate
 
 - (void)buttonClicked:(UIButton *)sender {
     if (sender.tag == 1000) {
+        AddViewController *addVC = [[AddViewController alloc] init];
+        [self.navigationController pushViewController:addVC animated:YES];
         
     }else if (sender.tag == 1001) {
         
         AllOrderViewController *allVC = [[AllOrderViewController alloc] init];
         [self.navigationController pushViewController:allVC animated:YES];
-        
         
     }else if (sender.tag == 1002) {
         StandardWebViewController *standardVC = [[StandardWebViewController alloc] init];
@@ -174,6 +177,9 @@ UIViewControllerTransitioningDelegate
     }
 }
 
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 
 
 #pragma mark - UIViewControllerTransitioningDelegate -
@@ -185,17 +191,6 @@ UIViewControllerTransitioningDelegate
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
     return [ShareAnimation shareAnimationWithType:ShareAnimationTypeDismiss duration:0.05 presentHeight:258];
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 @end

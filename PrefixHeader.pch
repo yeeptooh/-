@@ -11,4 +11,8 @@
 
 #import "MyDefine.h"
 #import "POP.h"
+
+
+#define kUpdateRedLabel @"kUpdateRedLabel"
+
 #endif /* PrefixHeader_pch */

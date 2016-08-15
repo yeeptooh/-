@@ -89,7 +89,7 @@
         self.PickCode = dictionary[@"PickCode"];
         self.Comment = dictionary[@"Comment"];
         self.WaiterShow = dictionary[@"WaiterShow"];
-        
+        self.BuyerPhone2 = dictionary[@"BuyerPhone2"];
     }
     return self;
 }

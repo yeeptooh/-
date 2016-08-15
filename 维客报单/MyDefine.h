@@ -42,10 +42,12 @@
 #define BlueColor color(59, 165, 249, 1)
 #define MainBlueColor color(9, 152, 205, 1)
 
-#ifdef DEBUG
-# define DLog(fmt, ...) NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
-#else
-# define DLog(...);
-#endif
+#define NSLog(format, ...) do {                                                                          \
+fprintf(stderr, "<%s : %d> %s\n",                                           \
+[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String],  \
+__LINE__, __func__);                                                        \
+(NSLog)((format), ##__VA_ARGS__);                                           \
+fprintf(stderr, "-------\n");                                               \
+} while (0)
 
 #endif /* MyDefine_h */

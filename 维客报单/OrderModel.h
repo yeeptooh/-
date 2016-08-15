@@ -19,6 +19,7 @@
 @property (nonatomic, strong) NSString *AddTime;
 
 @property (nonatomic, strong) NSString *BuyerPhone;
+@property (nonatomic, strong) NSString *BuyerPhone2;
 @property (nonatomic, strong) NSString *InfoFrom;
 @property (nonatomic, strong) NSString *BuyerCity;
 @property (nonatomic, strong) NSString *ID;
@@ -49,7 +50,7 @@
 @property (nonatomic, strong) NSString *ProductType;
 @property (nonatomic, strong) NSString *BarCode;
 @property (nonatomic, strong) NSString *BarCode2;
-@property (nonatomic, strong) NSString *BuyerPhone2;
+//@property (nonatomic, strong) NSString *BuyerPhone2;
 @property (nonatomic, strong) NSString *BuyTimeStr;
 @property (nonatomic, strong) NSString *RepairType;
 //@property (nonatomic, strong) NSString *CloseTime;

@@ -253,6 +253,8 @@ UIViewControllerTransitioningDelegate
     cell.InfoFrom.text = [NSString stringWithFormat:@"来源: %@",self.orderModel.InfoFrom];
     cell.CallPhone.text = [NSString stringWithFormat:@"来电: %@",self.orderModel.CallPhone];
     cell.BillCode.text = [NSString stringWithFormat:@"单据: %@",self.orderModel.BillCode];
+    cell.otherPhoneLabel.text = [NSString stringWithFormat:@"其他: %@",self.orderModel.BuyerPhone2];
+    
     cell.CallPhoneString = self.orderModel.BuyerPhone;
     UIView *baseView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, Width, 155)];
     cell.frame = baseView.bounds;

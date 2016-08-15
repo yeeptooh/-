@@ -20,5 +20,6 @@ typedef void(^callblock)(void);
 @property (weak, nonatomic) IBOutlet UILabel *CallPhone;
 @property (nonatomic, copy) NSString *CallPhoneString;
 @property (nonatomic, copy) callblock  _block;
+@property (weak, nonatomic) IBOutlet UILabel *otherPhoneLabel;
 @property (weak, nonatomic) IBOutlet UIButton *dialogButton;
 @end

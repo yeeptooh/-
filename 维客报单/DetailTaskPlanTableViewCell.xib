@@ -161,6 +161,7 @@
                 <outlet property="CallPhone" destination="FhO-Nu-CdV" id="LAa-pg-FjE"/>
                 <outlet property="InfoFrom" destination="twy-jE-V00" id="lRe-ZV-GdV"/>
                 <outlet property="dialogButton" destination="ktj-VZ-vcY" id="8lM-k5-cP6"/>
+                <outlet property="otherPhoneLabel" destination="ZpT-dI-duP" id="Zgk-Ao-RqL"/>
             </connections>
             <point key="canvasLocation" x="184" y="79.5"/>
         </tableViewCell>

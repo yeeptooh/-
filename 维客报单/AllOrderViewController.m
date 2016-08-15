@@ -622,8 +622,7 @@ UITextFieldDelegate
                                  };
         
         [self.checkManager POST:URL parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-            NSString *response = [[NSString alloc]initWithData:responseObject encoding:NSUTF8StringEncoding];
-            NSLog(@"%@",response);
+            
             
             if (([detailTaskPlanVC.orderModel.UnFinishRemark isEqual:[NSNull null]] ||[detailTaskPlanVC.orderModel.UnFinishRemark isEqualToString:@""])&& ([detailTaskPlanVC.orderModel.CancelReason isEqual:[NSNull null]] || [detailTaskPlanVC.orderModel.CancelReason isEqualToString:@""])&& ([detailTaskPlanVC.orderModel.NoEntryReason  isEqual:[NSNull null]] || [detailTaskPlanVC.orderModel.NoEntryReason isEqualToString:@""])&&([detailTaskPlanVC.orderModel.Change isEqual:[NSNull null]] || [detailTaskPlanVC.orderModel.Change isEqualToString:@""])) {
                 detailTaskPlanVC.flag = 0;
