@@ -40,7 +40,6 @@
 		4A6865ED1D61667D004C5106 /* TownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6865E11D61667D004C5106 /* TownViewController.m */; };
 		4A6865EE1D61667D004C5106 /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6865E31D61667D004C5106 /* TypeViewController.m */; };
 		4A6865F11D6166C8004C5106 /* HYBModalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6865F01D6166C8004C5106 /* HYBModalTransition.m */; };
-		4A6865F31D61B6E9004C5106 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6865F21D61B6E9004C5106 /* Images.xcassets */; };
 		4A68DCB51D5D63C700B24EC4 /* ShareAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCB41D5D63C700B24EC4 /* ShareAnimation.m */; };
 		4A68DCB81D5D647800B24EC4 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCB71D5D647800B24EC4 /* ShareViewController.m */; };
 		4A68DCD61D5D65DC00B24EC4 /* CancelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68DCBA1D5D65DC00B24EC4 /* CancelTableViewCell.m */; };
@@ -153,7 +152,6 @@
 		4A6865E31D61667D004C5106 /* TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
 		4A6865EF1D6166C8004C5106 /* HYBModalTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBModalTransition.h; sourceTree = "<group>"; };
 		4A6865F01D6166C8004C5106 /* HYBModalTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBModalTransition.m; sourceTree = "<group>"; };
-		4A6865F21D61B6E9004C5106 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A68DCB31D5D63C700B24EC4 /* ShareAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareAnimation.h; sourceTree = "<group>"; };
 		4A68DCB41D5D63C700B24EC4 /* ShareAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareAnimation.m; sourceTree = "<group>"; };
 		4A68DCB61D5D647800B24EC4 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
@@ -260,7 +258,6 @@
 				4A59F05D1D5C668800239750 /* Model */,
 				4A59F05E1D5C669500239750 /* View */,
 				4A59F05C1D5C666300239750 /* Base */,
-				4A6865F21D61B6E9004C5106 /* Images.xcassets */,
 				4A59F0191D5C607E00239750 /* Supporting Files */,
 			);
 			path = "维客报单";
@@ -541,7 +538,6 @@
 				4A59F0291D5C607E00239750 /* LaunchScreen.storyboard in Resources */,
 				4A68DCE81D5D65DC00B24EC4 /* TaskPlanToDoTableViewCell.xib in Resources */,
 				4A68DCD91D5D65DC00B24EC4 /* DetailForthTableViewCell.xib in Resources */,
-				4A6865F31D61B6E9004C5106 /* Images.xcassets in Resources */,
 				4A68DCDB1D5D65DC00B24EC4 /* DetailTaskPlanTableViewCell.xib in Resources */,
 				4A68DCE01D5D65DC00B24EC4 /* DialogTableViewCell.xib in Resources */,
 				4A68DCD71D5D65DC00B24EC4 /* CancelTableViewCell.xib in Resources */,
